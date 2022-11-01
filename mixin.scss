@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+@mixin poppins {
+  background: #1E2024;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+@mixin flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@mixin btnt {
+  background: #1A5CFF;
+  box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+  border-radius: 20px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin: 0 10px 0 0;
+}
+
+$color: white;
+
+@mixin shrift {
+  font-size: 45px;
+  color: white;
+
+}
+
+@mixin delit {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@mixin widtht {
+  width: 411px;
+  height: 521px;
+}
+
+@mixin name {
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #2C3E50;
+}
+
+@mixin h_4 {
+  font-size: 25px;
+
+}
+
+@mixin center {
+  display: flex;
+  justify-content: center;
+
+}
+
+@mixin student {
+
+  width: 600px;
+  height: 340px;
+  background: #FFFFFF;
+  border-radius: 15px;
+}
+
+@mixin icon {
+  margin: 15px 25px;
+  font-size: 45px;
+  color: #2C3E50;
+}
+
+@mixin number {
+ display: flex;
+  justify-content: space-between;
+  font-size: 44px;
+  color: #9099A3;
+}
+
+@mixin numshr {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin btnp {
+  position: absolute;
+  margin: 10px 0 0 290px;
+  width: 190px;
+  height: 45px;
+  background: #1A5CFF;
+  box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  border: none;
+  color: white;
+  font-size: 18px;
+}
+
+@mixin Pshrift {
+  width: 484px;
+  font-size: 20px;
+  color: #2C3E50;
+  margin: 30px 0 10px 0;
+}

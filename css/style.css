@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+#header {
+  color: white;
+  height: 80px;
+  background: #1E2024;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+#header .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#header .header__platform {
+  display: flex;
+}
+#header .header__menu {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+#header .header__menu a {
+  color: #9099A3;
+  text-decoration: none;
+}
+#header .header__language__btn {
+  width: 100px;
+  height: 40px;
+  background: #1A5CFF;
+  box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+  border-radius: 20px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin: 0 10px 0 0;
+}
+
+#Klub {
+  background: url("/img/Rectangle 2068.png") no-repeat center/cover;
+  height: 780px;
+}
+#Klub .Klub {
+  color: white;
+}
+#Klub .Klub__request {
+  position: absolute;
+  margin: 50px 0 20px 30px;
+}
+#Klub .Klub__request h1 {
+  font-size: 45px;
+  color: white;
+}
+#Klub .Klub__request p {
+  margin: 20px 0 20px 0;
+  color: rgba(255, 255, 255, 0.65);
+}
+#Klub .Klub__request__btns {
+  width: 178px;
+  height: 40px;
+  background: #1A5CFF;
+  box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+  border-radius: 20px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin: 0 10px 0 0;
+}
+#Klub .Klub__request__btnt {
+  width: 100px;
+  height: 40px;
+  color: #9099A3;
+  border: 1px solid #9099A3;
+  border-radius: 15px;
+  background: none;
+  font-size: 20px;
+}
+#Klub .Klub__home {
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px 0 20px 0;
+}
+#Klub .Klub__home h3 {
+  color: #9099A3;
+}
+
+#mission {
+  background: #1E2023;
+  height: 750px;
+}
+#mission .mission {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#mission .mission__text {
+  font-size: 45px;
+  color: white;
+  padding: 10px 500px 0 0;
+}
+#mission .mission__hero {
+  width: 1100px;
+  height: 600px;
+  background: #FFFFFF;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #2C3E50;
+}
+#mission .mission__hero__opyt {
+  width: 411px;
+  height: 521px;
+}
+#mission .mission__hero__bisness {
+  width: 411px;
+  height: 521px;
+}
+#mission .mission__hero__bisness h4 {
+  font-size: 25px;
+}
+
+#format {
+  background: #1E2023;
+}
+#format .format h1 {
+  font-size: 45px;
+  color: white;
+}
+#format .format__teacher {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#format .format__teacher__student {
+  display: flex;
+  justify-content: center;
+  margin: 10px 20px 30px 0;
+  width: 600px;
+  height: 340px;
+  background: #FFFFFF;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+#format .format__teacher__student__icon {
+  margin: 15px 25px;
+  font-size: 45px;
+  color: #2C3E50;
+}
+#format .format__teacher__student__icon h1 {
+  width: 484px;
+  font-size: 30px;
+  color: #2C3E50;
+}
+#format .format__teacher__student__icon p {
+  width: 484px;
+  font-size: 20px;
+  color: #2C3E50;
+  margin: 30px 0 10px 0;
+}
+#format .format__teacher__student__icon__btn {
+  position: absolute;
+  margin: 10px 0 0 290px;
+  width: 190px;
+  height: 45px;
+  background: #1A5CFF;
+  box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  border: none;
+  color: white;
+  font-size: 18px;
+}
+#format .format__teacher__student__number h1 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 44px;
+  color: #9099A3;
+}
+
+/*# sourceMappingURL=style.css.map */

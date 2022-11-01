@@ -1,0 +1,173 @@
+@import "mixin";
+
+#header {
+  color: $color;
+  height: 80px;
+  @include poppins;
+
+  .header {
+    @include flex;
+
+    &__platform {
+      display: flex;
+    }
+
+    &__menu {
+      width: 40%;
+      display: flex;
+      justify-content: space-between;
+
+      a {
+        color: #9099A3;
+        text-decoration: none;
+      }
+    }
+
+    &__language {
+
+      &__btn {
+        width: 100px;
+        height: 40px;
+        @include btnt;
+      }
+    }
+  }
+}
+
+#Klub {
+  background: url("/img/Rectangle 2068.png") no-repeat center/cover;
+  height: 780px;
+
+  .Klub {
+    color: $color;
+
+    &__request {
+      position: absolute;
+      margin: 50px 0 20px 30px;
+
+      h1 {
+        @include shrift;
+      }
+
+      p {
+        margin: 20px 0 20px 0;
+        color: rgba(255, 255, 255, 0.65);
+      }
+
+      &__btns {
+        width: 178px;
+        height: 40px;
+        @include btnt;
+
+      }
+      &__btnt {
+        width: 100px;
+        height: 40px;
+        color: #9099A3;
+        border: 1px solid #9099A3;
+        border-radius: 15px;
+        background: none;
+        font-size: 20px;
+
+      }
+    }
+
+    &__home {
+      display: flex;
+      justify-content: flex-end;
+      padding: 30px 0 20px 0;
+
+      h3 {
+        color: #9099A3;
+
+      }
+    }
+  }
+}
+
+#mission {
+  background: #1E2023;;
+  height: 750px;
+
+  .mission {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__text {
+      @include shrift;
+      padding: 10px 500px 0 0;
+    }
+
+    &__hero {
+      width: 1100px;
+      height: 600px;
+      background: #FFFFFF;
+      border-radius: 15px;
+      @include delit;
+      @include name;
+
+      &__opyt {
+        @include widtht
+      }
+
+      &__bisness {
+        @include widtht;
+
+        h4 {
+          @include h_4;
+        }
+      }
+    }
+  }
+}
+
+#format {
+  background: #1E2023;
+
+  .format {
+
+    h1 {
+      @include shrift;
+    }
+
+    &__teacher {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+      &__student {
+        display: flex;
+        justify-content: center;
+        margin: 10px 20px 30px 0;
+        @include student;
+        @include numshr;
+
+        &__icon {
+          @include icon;
+
+          h1 {
+            width: 484px;
+            font-size: 30px;
+            color: #2C3E50;
+          }
+
+          p {
+            @include Pshrift;
+
+          }
+
+          &__btn {
+            @include btnp;
+          }
+        }
+
+        &__number {
+          h1 {
+            @include number;
+          }
+        }
+
+      }
+    }
+  }
+}
