@@ -60,6 +60,7 @@
         @include btnt;
 
       }
+
       &__btnt {
         width: 100px;
         height: 40px;
@@ -167,6 +168,418 @@
           }
         }
 
+      }
+    }
+  }
+}
+
+#package {
+  background: #1E2023;
+
+  .package {
+    &__choose {
+      font-size: 36px;
+      color: white;
+      padding: 30px 0;
+    }
+
+    &__small {
+      font-size: 16px;
+      color: white;
+    }
+
+    &__cards {
+      display: flex;
+      justify-content: space-around;
+
+      &__card1 {
+        @include card;
+
+        &__base {
+          @include base
+        }
+
+        &__sale {
+          @include sale
+        }
+
+        &__cash {
+          @include cash
+        }
+
+        &__btn {
+          @include btn
+        }
+
+        &__p {
+          @include p
+        }
+
+        &__btn2 {
+          @include btn2
+        }
+
+        &__more {
+          @include more
+        }
+      }
+
+      &__rec {
+        font-size: 14px;
+        color: white;
+        background: #1A5CFF;
+        border-radius: 10px 10px 0 0;
+        width: 330px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        margin: 33px 0 0 0;
+      }
+
+      &__card2 {
+        width: 310px;
+        height: 370px;
+        background: white;
+        border-radius: 0 0 10px 10px;
+        padding: 15px 15px;
+        margin: 0 0 0 0;
+
+        &__base {
+          @include base
+        }
+
+        &__sale {
+          @include sale
+        }
+
+        &__cash {
+          @include cash
+        }
+
+        &__btn {
+          @include btn
+        }
+
+        &__p {
+          @include p
+        }
+
+        &__btn2 {
+          background: #1A5CFF;
+          border-radius: 15px;
+          color: white;
+          font-size: 18px;
+          padding: 15px 50px;
+          border: none;
+          margin: 65px 0 0 20px;
+        }
+
+        &__more {
+          @include more
+        }
+      }
+
+      &__card3 {
+        @include card;
+
+        &__base {
+          @include base
+        }
+
+        &__sale {
+          @include sale
+        }
+
+        &__cash {
+          @include cash
+        }
+
+        &__btn {
+          @include btn
+        }
+
+        &__p {
+          @include p
+        }
+
+        &__btn2 {
+          background: #2C3E50;
+          border-radius: 15px;
+          color: white;
+          font-size: 18px;
+          padding: 15px 50px;
+          border: none;
+          margin: 48px 0 0 20px;
+        }
+
+        &__more {
+          @include more
+        }
+      }
+    }
+  }
+}
+
+#help {
+  background: #1E2023;
+
+  .help {
+    display: flex;
+    justify-content: space-around;
+    padding: 120px 0 0 0;
+
+    &__in {
+      font-size: 36px;
+      color: white;
+      margin: 0 0 30px 0;
+    }
+
+    &__leave {
+      @include leave
+    }
+
+    &__request {
+      display: flex;
+      flex-direction: column;
+
+      &__surname {
+        @include surname
+      }
+
+      &__input {
+        @include input
+      }
+
+      &__send {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 0 0 0;
+
+        &__safe {
+          font-size: 16px;
+          color: white;
+          text-align: left;
+        }
+
+        &__btn {
+          width: 280px;
+          height: 60px;
+          color: white;
+          background: #1A5CFF;
+          border-radius: 15px;
+          border: none;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+#questions {
+  background: #1E2023;
+
+  .questions {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 0;
+
+    &__ask {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &__answer {
+        font-size: 36px;
+        color: white;
+      }
+
+      &__icon {
+        font-size: 144px;
+        color: #1A5CFF;
+      }
+    }
+
+    &__answers {
+      background: url("./img/Ellipse 8.png") no-repeat center/cover;
+
+      &__answer3 {
+        display: flex;
+        flex-wrap: wrap;
+
+        &__icon {
+          color: white;
+          font-size: 20px;
+          margin: 0 10px;
+        }
+
+        #arrow:checked ~ .questions__answers__answer3__eco {
+          height: 150px;
+        }
+
+        #difference:checked ~ .questions__answers__answer3__eco {
+          height: 150px;
+        }
+
+        #month:checked ~ .questions__answers__answer3__eco {
+          height: 150px;
+        }
+
+        #year:checked ~ .questions__answers__answer3__eco {
+          height: 150px;
+        }
+
+        #access:checked ~ .questions__answers__answer3__eco {
+          height: 150px;
+        }
+
+        #platform:checked ~ .questions__answers__answer3__eco {
+          height: 150px;
+        }
+
+        #money:checked ~ .questions__answers__answer3__eco {
+          height: 150px;
+        }
+
+        &__eco {
+          height: 0;
+          overflow: hidden !important;
+          transition: 2s;
+
+          &__paragraph {
+            @include leave
+          }
+        }
+      }
+
+      &__answer1 {
+        @include question;
+
+        &__answer2 {
+          &__check {
+            display: none;
+          }
+
+          @include arrow
+        }
+
+        &__arrow {
+          @include arrow
+        }
+      }
+    }
+  }
+}
+
+#finish {
+  background: #1E2023;
+
+  .finish {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0 0 0;
+
+    &__logo {
+      &__icon {
+        width: 56px;
+        height: 80px;
+      }
+    }
+
+    &__kaiden {
+      &__tittle {
+        @include arrow
+      }
+
+      &__tittle2 {
+        @include tittle
+      }
+
+      &__btn {
+        @include btn3
+
+      }
+    }
+
+    &__connection {
+      &__tittle {
+        @include arrow
+      }
+
+      &__tittle2 {
+        @include tittle;
+
+        &__link {
+          font-size: 14px;
+          color: #9099A3;
+          text-decoration: none;
+        }
+      }
+
+      &__in {
+        @include in
+      }
+    }
+
+    &__news {
+      &__follow {
+        @include arrow;
+
+        &__span {
+          color: #1A5CFF;
+        }
+      }
+
+      &__btn {
+        @include btn3;
+        position: absolute;
+        margin: -10px 0 0 180px;
+      }
+
+      &__input {
+        padding: 0 0 0 10px;
+        width: 250px;
+        height: 40px;
+        border: none;
+        background: #FFFFFF;
+        box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.05);
+        border-radius: 15px;
+        margin: 0 0 20px 0;
+      }
+
+      &__tittle2 {
+        @include tittle;
+      }
+    }
+  }
+
+  .end {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 30px 0 0 0;
+
+    &--author {
+      @include author
+    }
+
+    &--link {
+      display: flex;
+      align-items: center;
+
+      &__terms {
+        @include author
+      }
+
+      &__img {
+        width: 40px;
+        height: 12px;
+        padding: 0 10px 0 20px;
+      }
+
+      &--img2 {
+        width: 40px;
+        height: 34px;
       }
     }
   }

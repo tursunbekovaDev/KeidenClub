@@ -1,35 +1,852 @@
 @media (max-width: 1200px) {
+
 }
+
 @media (max-width: 1024px) {
+  #package {
+    .package {
+      &__cards {
+        &__card2 {
+          margin: 0 20px;
+        }
 
+        &__rec {
+          margin: 33px 0 0 20px;
+        }
+      }
+    }
+  }
 }
+
 @media (max-width: 992px) {
-
 }
+
 @media (max-width: 768px) {
+  #package {
+    .package {
+      &__small {
+        font-size: 14px;
+      }
 
+      &__cards {
+        &__rec {
+          width: 220px;
+        }
+
+        &__card2 {
+          width: 180px;
+          height: 300px;
+          padding: 25px 25px;
+
+          &__btn2 {
+            margin: 25px 0 0 10px;
+            font-size: 15px;
+            padding: 7px 9px;
+          }
+
+          &__cash {
+            font-size: 25px;
+          }
+
+          &__more {
+            margin: 10px 0 0 0;
+            font-size: 14px;
+          }
+
+          &__p {
+            font-size: 12px;
+          }
+        }
+
+        &__card3 {
+          width: 180px;
+          height: 300px;
+          padding: 25px 25px;
+
+          &__cash {
+            font-size: 25px;
+          }
+
+          &__p {
+            font-size: 10px;
+          }
+
+          &__btn2 {
+            font-size: 15px;
+            padding: 0 34px;
+            margin: 20px 0 0 5px;
+          }
+        }
+
+        &__card1 {
+          width: 180px;
+          height: 300px;
+          padding: 25px 25px;
+
+          &__cash {
+            font-size: 25px;
+          }
+
+          &__p {
+            font-size: 12px;
+          }
+
+          &__btn2 {
+            font-size: 15px;
+            padding: 0 34px;
+            margin: 30px 0 0 5px;
+          }
+        }
+      }
+    }
+  }
+  #help {
+    .help {
+      &__request {
+        &__input {
+          width: 400px;
+        }
+
+        &__send {
+          &__btn {
+            width: 200px;
+            height: 56px;
+          }
+
+          &__safe {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  #questions {
+    .questions {
+      &__answers {
+        &__answer1 {
+          &__answer2 {
+            font-size: 14px;
+          }
+        }
+
+        &__answer3 {
+          &__eco {
+            &__paragraph {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+  #finish {
+    .finish {
+      &__kaiden {
+        &__tittle {
+          font-size: 15px;
+        }
+      }
+
+      &__logo {
+        &__icon {
+          width: 40px;
+          height: 70px;
+        }
+      }
+
+      &__news {
+        &__input {
+          width: 220px;
+        }
+      }
+
+      &__connection {
+        &__tittle {
+          font-size: 15px;
+        }
+
+        &__in {
+          padding: 10px 3px 0 0;
+        }
+      }
+    }
+  }
 }
+
 @media (max-width: 576px) {
+  #package {
+    .package {
+      &__choose {
+        font-size: 27px;
+      }
 
+      &__small {
+        font-size: 10px;
+      }
+
+      &__cards {
+        &__rec {
+          width: 170px;
+          margin: 33px 0 0 10px;
+        }
+
+        &__card1 {
+          width: 150px;
+          height: 250px;
+          padding: 15px 15px;
+
+          &__cash {
+            font-size: 15px;
+          }
+
+          &__sale {
+            font-size: 10px;
+          }
+
+          &__btn {
+            font-size: 8px;
+          }
+
+          &__p {
+            margin: 10px 0 0 0;
+            font-size: 9px;
+          }
+
+          &__btn2 {
+            margin: 40px 0 0 0;
+          }
+        }
+
+        &__card2 {
+          width: 150px;
+          height: 250px;
+          padding: 15px 15px;
+          margin: 0 10px;
+
+          &__cash {
+            font-size: 15px;
+          }
+
+          &__sale {
+            font-size: 10px;
+          }
+
+          &__btn {
+            font-size: 8px;
+          }
+
+          &__p {
+            margin: 10px 0 0 0;
+            font-size: 9px;
+          }
+
+          &__btn2 {
+            margin: 32px 0 6px 0;
+            padding: 0 5px;
+          }
+        }
+
+        &__card3 {
+          width: 150px;
+          height: 250px;
+          padding: 15px 15px;
+
+          &__cash {
+            font-size: 15px;
+          }
+
+          &__sale {
+            font-size: 10px;
+          }
+
+          &__btn {
+            font-size: 8px;
+          }
+
+          &__p {
+            margin: 10px 0 0 0;
+            font-size: 9px;
+          }
+
+          &__btn2 {
+            margin: 10px 0 0 0;
+          }
+        }
+      }
+    }
+  }
+  #help {
+    .help {
+      &__in {
+        font-size: 30px;
+      }
+
+      &__leave {
+        font-size: 10px;
+      }
+
+      &__request {
+        &__input {
+          width: 300px;
+          height: 40px;
+        }
+
+        &__send {
+          &__btn {
+            width: 140px;
+            height: 45px;
+            font-size: 16px;
+          }
+
+          &__safe {
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+  #questions {
+    .questions {
+      &__ask {
+        &__answer {
+          font-size: 30px;
+        }
+
+        &__icon {
+          font-size: 120px;
+        }
+      }
+
+      &__answers {
+        &__answer1 {
+          &__answer2 {
+            font-size: 9px;
+          }
+        }
+      }
+    }
+  }
+  #finish {
+    .finish {
+      &__logo {
+        &__icon {
+          width: 30px;
+          height: 60px;
+        }
+      }
+
+      &__news {
+        &__input {
+          width: 150px;
+          height: 25px;
+        }
+
+        &__btn {
+          margin: -10px 0 0 130px;
+          font-size: 10px;
+          padding: 10px 15px;
+        }
+
+        &__follow {
+          font-size: 14px;
+        }
+
+        &__tittle2 {
+          font-size: 10px;
+          padding: 0 0;
+        }
+      }
+
+      &__connection {
+        &__tittle {
+          font-size: 10px;
+        }
+
+        &__tittle2 {
+          font-size: 10px;
+          line-height: 17px;
+          padding: 0 0;
+        }
+
+        &__in {
+          font-size: 10px;
+        }
+      }
+
+      &__kaiden {
+        &__tittle {
+          font-size: 10px;
+        }
+
+        &__tittle2 {
+          font-size: 8px;
+          padding: 6px 0;
+        }
+
+        &__btn {
+          font-size: 10px;
+          padding: 5px 20px;
+        }
+      }
+    }
+
+    .end {
+      display: flex;
+      align-items: center;
+
+      &--author {
+        font-size: 8px;
+      }
+
+      &--link {
+        &__terms {
+          font-size: 8px;
+        }
+      }
+    }
+  }
 }
+
 @media (max-width: 450px) {
+  #package {
+    .package {
+      &__choose {
+        font-size: 22px;
+      }
 
+      &__small {
+        font-size: 8px;
+      }
+
+      &__cards {
+        &__rec {
+          width: 120px;
+        }
+
+        &__card2 {
+          width: 100px;
+          height: 200px;
+
+          &__cash {
+            font-size: 15px;
+          }
+
+          &__sale {
+            font-size: 8px;
+          }
+
+          &__p {
+            font-size: 7px;
+          }
+
+          &__btn2 {
+            font-size: 7px;
+            padding: 5px 8px;
+            margin: 10px 0 0 8px;
+          }
+
+          &__more {
+            margin: 5px 0 0 0;
+            font-size: 10px;
+          }
+        }
+
+        &__card1 {
+          width: 100px;
+          height: 200px;
+
+          &__p {
+            margin: 8px 0 0 0;
+            font-size: 6px;
+          }
+
+          &__btn2 {
+            font-size: 7px;
+            padding: 5px 8px;
+            margin: 38px 0 0 7px;
+          }
+
+          &__more {
+            margin: 8px 0 0 0;
+            font-size: 10px;
+          }
+        }
+
+        &__card3 {
+          width: 100px;
+          height: 200px;
+
+          &__p {
+            margin: 8px 0 0 0;
+            font-size: 6px;
+          }
+
+          &__btn2 {
+            font-size: 7px;
+            padding: 5px 8px;
+            margin: 22px 0 0 7px;
+          }
+
+          &__more {
+            margin: 8px 0 0 0;
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+  #help {
+    .help {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 80px 0 0 0;
+
+      &__leave {
+        font-size: 15px;
+      }
+
+      &__request {
+        padding: 50px 0 0 0;
+      }
+    }
+  }
+  #questions {
+    .questions {
+      display: flex;
+      flex-direction: column-reverse;
+
+      &__ask {
+        padding: 0 0 50px 0;
+
+        &__answer {
+          font-size: 20px;
+        }
+
+        &__icon {
+          font-size: 70px;
+        }
+      }
+
+      &__answers {
+        &__answer1 {
+          &__answer2 {
+            font-size: 12px;
+          }
+        }
+
+        &__answer3 {
+          &__eco {
+            &__paragraph {
+              font-size: 11px;
+            }
+          }
+        }
+      }
+    }
+  }
+  #finish {
+    .finish {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+
+      &__logo {
+        &__icon {
+          width: 50px;
+          height: 84px;
+        }
+      }
+
+      &__kaiden {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        &__tittle {
+          font-size: 16px;
+          padding: 20px 0 10px 0;
+        }
+
+        &__tittle2 {
+          font-size: 12px;
+          text-align: center;
+        }
+      }
+
+      &__connection {
+        &__tittle {
+          font-size: 16px;
+          text-align: center;
+        }
+
+        &__tittle2 {
+          font-size: 14px;
+          text-align: center;
+          padding: 0 0 15px 0;
+        }
+
+        &__in {
+          font-size: 20px;
+          padding: 0 0 10px 33px;
+        }
+      }
+
+      &__news {
+        &__follow {
+          font-size: 20px;
+          text-align: center;
+        }
+
+        &__input {
+          width: 200px;
+          height: 35px;
+        }
+
+        &__btn {
+          margin: -10px 0 0 175px;
+        }
+
+        &__tittle2 {
+          font-size: 12px;
+          padding: 0 0 15px 0;
+          text-align: center;
+        }
+      }
+    }
+  }
 }
+
 @media (max-width: 414px) {
 
 }
+
 @media (max-width: 400px) {
+  #package {
+    .package {
+      &__cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
+        &__rec {
+          width: 280px;
+        }
+
+        &__card1 {
+          width: 260px;
+          height: 140px;
+          padding: 8px 15px;
+
+          &__cash {
+            margin: 2px 0 0 0;
+          }
+
+          &__sale {
+            margin: 0 0 0 0;
+          }
+
+          &__p {
+            margin: 3px 0 0 0;
+            font-size: 11px;
+          }
+
+          &__btn2 {
+            margin: 0 0 0 170px;
+          }
+
+          &__more {
+            margin: -13px 0 0 0;
+          }
+        }
+
+        &__card2 {
+          width: 260px;
+          height: 140px;
+          padding: 8px 15px;
+
+          &__cash {
+            margin: 2px 0 0 0;
+          }
+
+          &__sale {
+            margin: 0 0 0 0;
+          }
+
+          &__p {
+            margin: 1px 0 0 0;
+            font-size: 9px;
+          }
+
+          &__btn2 {
+            margin: 0 0 0 170px;
+          }
+
+          &__more {
+            margin: -14px 0 0 0;
+          }
+        }
+
+        &__card3 {
+          width: 260px;
+          height: 140px;
+          padding: 8px 15px;
+
+          &__cash {
+            margin: 2px 0 0 0;
+          }
+
+          &__sale {
+            margin: 0 0 0 0;
+          }
+
+          &__p {
+            margin: 2px 0 0 0;
+            font-size: 8px;
+          }
+
+          &__btn2 {
+            margin: 0 0 0 170px;
+          }
+
+          &__more {
+            margin: -14px 0 0 0;
+          }
+        }
+      }
+    }
+  }
+  #questions {
+    .questions {
+      &__answers {
+        &__answer1 {
+          &__answer2 {
+            font-size: 10px;
+          }
+        }
+
+        &__answer3 {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: baseline;
+
+          &__icon {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
 }
+
 @media (max-width: 380px) {
+  #package {
+    .package {
+      &__small {
+        font-size: 7px;
+      }
+    }
+  }
+  #help {
+    .help {
+      &__in {
+        font-size: 22px;
+      }
 
+      &__leave {
+        font-size: 12px;
+      }
+
+      &__request {
+        &__send {
+          &__btn {
+            width: 100px;
+            height: 30px;
+            font-size: 12px;
+          }
+
+          &__safe {
+            font-size: 8px;
+          }
+        }
+      }
+    }
+  }
+  #finish {
+    .finish {
+      &__logo {
+        padding: 20px 0 0 0;
+      }
+    }
+
+    .end {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &--link {
+        display: flex;
+        flex-direction: column;
+        padding: 15px 0 0 0;
+
+        &__terms {
+          padding: 0 0 20px 0;
+        }
+
+        &__img {
+          padding: 0 0 10px 0;
+        }
+      }
+    }
+  }
 }
+
 @media (max-width: 375px) {
 
 }
+
 @media (max-width: 360px) {
-
+  #questions {
+    .questions {
+      &__answers {
+        &__answer1 {
+          &__answer2 {
+            font-size: 9px;
+          }
+        }
+      }
+    }
+  }
 }
-@media (max-width: 320px) {
 
+@media (max-width: 320px) {
+  #package{
+    .package{
+      &__small{
+        font-size: 6px;
+      }
+    }
+  }
+  #help{
+    .help{
+      &__request{
+        &__input{
+          width: 250px;
+          height: 35px;
+        }
+      }
+    }
+  }
+  #questions{
+    .questions {
+      &__answers {
+        &__answer1 {
+          &__answer2 {
+            font-size: 8px;
+          }
+        }
+      }
+    }
+  }
 }
