@@ -5,6 +5,20 @@
   #package .package__cards__rec {
     margin: 33px 0 0 20px;
   }
+  #step .step--block {
+    width: 800px;
+  }
+}
+@media (max-width: 992px) {
+  #step .step--block img {
+    width: 310px;
+    height: 350px;
+  }
+  #step .step--block .button {
+    width: 441px;
+    height: 40px;
+    margin: 4px 42px;
+  }
 }
 @media (max-width: 768px) {
   #package .package__small {
@@ -96,6 +110,26 @@
   }
   #finish .finish__connection__in {
     padding: 10px 3px 0 0;
+  }
+  #step .step--tittle h1 {
+    font-size: 30px;
+    padding: 15px 0;
+  }
+  #step .step--block {
+    width: 704px;
+    height: 266px;
+    border-radius: 16px;
+  }
+  #step .step--block .button {
+    width: 270px;
+    height: 28px;
+    margin: 29px 42px;
+  }
+  #step .step p {
+    padding: 7px 13px 20px;
+  }
+  #step h2 {
+    padding: 12px 58px 2px 29px;
   }
 }
 @media (max-width: 576px) {
@@ -252,6 +286,42 @@
   }
   #finish .end--link__terms {
     font-size: 8px;
+  }
+  #step .step--title h1 {
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  #step .step--block {
+    width: 517px;
+    height: 200px;
+    border-radius: 11px;
+  }
+  #step .step--block__come {
+    padding-left: 8px;
+  }
+  #step .step--block__come h1 {
+    margin: 14px 0 0 3px;
+    font-weight: 100;
+    font-size: 10px;
+    line-height: 10px;
+  }
+  #step .step--block .button {
+    width: 192px;
+    height: 31px;
+    border-radius: 17px;
+    margin: 34px 28px;
+  }
+  #step .step p {
+    font-size: 14px;
+    width: 100%;
+  }
+  #step h2 {
+    font-size: 18px;
+    padding: 0 18px -2px 38px;
+  }
+  #geography {
+    width: 54px;
+    padding: 0 0 9px 53px;
   }
 }
 @media (max-width: 450px) {
